@@ -3,6 +3,7 @@ The dataset used in the experiment can be obtained in the following methods:
 Polypseg: including Kvasir-Sessile, Kvasir-SEG, BKAI dataset.
 
 Our Work
+\title[Article Title]{Edge-Attention and Feature Fusion Network for Difficult Polyp Segmentation}
 Edge-Attention and Feature Fusion Network for Difffcult Polyp Segmentation
 Abstract
 Accurate polyp segmentation is key to early detection and prevention of colorectal cancer. Many

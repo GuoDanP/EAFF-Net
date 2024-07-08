@@ -1,1 +1,23 @@
-The code will be uploaded after receiving the paper.
+Dataset
+The dataset used in the experiment can be obtained in the following methods:
+Polypseg: including Kvasir-Sessile, Kvasir-SEG, BKAI dataset.
+
+Our Work
+Edge-Attention and Feature Fusion Network for Difffcult Polyp Segmentation
+Abstract
+Accurate polyp segmentation is key to early detection and prevention of colorectal cancer. Many
+U-Net variants have been proposed and successfully applied to polyp segmentation. However, the
+segmentation effect of these methods on the newly proposed Kvasir-Sessile dataset is not ideal. There
+are three limitations, insufffcient handling and utilization of edge information in polyp images, prone
+to losing small polyp objects, and deffciencies in the methods of feature enhancement and fusion. To
+alleviate these challenges, we propose an edge-attention and feature fusion network (EAFF-Net) to
+accurately segment ffat and sessile polyps. Edge-Attention Module (EAM) utilizes reverse attention
+and the prediction conffdence of the previous layer as guidance to focus on difffcult regions and
+pay more attention to edge information. Through the Fusion Attention Module (FAM), the decoder
+features and the output features of EAM are cross-fused to further fflter and enhance the features.
+This method has good segmentation performance for difffcult polyps. Extensive experiment results
+with eight state-of-the-art (SOTA) methods on four public polyp datasets, especially on the KvasirSessile
+ dataset.
+
+Experiments
+
